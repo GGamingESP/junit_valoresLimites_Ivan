@@ -1,0 +1,8 @@
+package junit_valoresLimites_Ivan;
+
+public class mayoresedad {
+	private int edad ;
+	public Persona() {
+		
+	}
+}

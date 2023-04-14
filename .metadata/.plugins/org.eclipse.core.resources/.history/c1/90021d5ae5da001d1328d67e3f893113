@@ -1,0 +1,14 @@
+package junit_valoresLimites_Ivan;
+
+public class mayoresedad {
+	private int edad ;
+	public mayoresedad(int edad) {
+		this.edad = edad ;
+	}
+	
+	public boolean isMayorEdad() {
+		assert edad >= 0 ;
+		assert edad < 0 ;
+		return edad >= 18 ;
+	}
+}

@@ -1,0 +1,12 @@
+package junit_valoresLimites_Ivan;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class mayoresedadtest {
+	@Test public void test3 () {
+		mayoresedad p = new mayoresedad(0);
+		assertFalse(p.isMayorEdad());
+	}
+}
